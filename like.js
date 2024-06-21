@@ -18,11 +18,9 @@ const extractFacebookIDsAndCountTypes = () => {
   
       if (text.includes("Invite")) {
         inviteCount++;
-        counterIncreased = true;
       }
       if (text.includes("Invited")) {
         invitedCount++;
-        counterIncreased = true;
       }
       if (text.includes("Following")) {
         followingCount++;
